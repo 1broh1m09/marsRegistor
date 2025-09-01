@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: beige;
+}
+
+header {
+    display: flex;
+    border-bottom: 2px solid rgb(160, 160, 160);
+    background-color: #FFFFFF;
+}
+
+.rowheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 45px;
+    margin-bottom: 48px;
+}
+
+
+.container {
+    max-width: 1085px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.img1 {
+    width: 175px;
+    height: 47px;
+}
+
+i {
+    font-size: 36px;
+    color: orangered;
+    gap: 15px;
+}
+
+select {
+    font-size: 36px;
+    font-weight: 700;
+    border: none;
+}
+
+.registrBox {
+    width: 650px;
+    margin: 0 auto;
+    margin-top: 45px;
+    border: 1px solid #DEDBDB;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    margin-bottom: 52px;
+}
+
+.firstBoxRow {
+    display: flex;
+    position: relative;
+}
+
+.secondLogo {
+    width: 150px;
+    height: 40px;
+    margin: 65px 65px;
+}
+
+.offert {
+    color: #F0400F;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 73px 77px;
+}
+
+.vector3 {
+    position: absolute;
+    top: 76px;
+    right: 50px;
+}
+
+.welcome {
+    color: #0E0D5D;
+    font-size: 48px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin-top: 127px;
+}
+
+.father {
+    display: flex;
+    align-items: center;
+    width: 533px;
+    height: 70px;
+    margin: 0 auto;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    margin-top: 80px;
+}
+
+.child1 {
+    width: 255px;
+    height: 54px;
+    margin-left: 11px;
+    background-color: transparent;
+    border-radius: 15px;
+}
+
+.iamstudent {
+    font-size: 28px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.child1:hover {
+    background-color: white;
+}
+
+.child2 {
+    width: 255px;
+    height: 54px;
+    background-color: transparent;
+    border-radius: 15px;
+}
+
+.iamparent {
+    font-size: 28px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.child2:hover {
+    background-color: white;
+}
+
+.put1 {
+    background-color: beige;
+    width: 533px;
+    height: 70px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 39px;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 50px;
+}
+
+
+.put2 {
+    background-color: beige;
+    width: 533px;
+    height: 70px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 39px;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 50px;
+}
+
+.putbox {
+    position: relative;
+    width: 533px;
+    margin: 0 auto;
+}
+
+.eye {
+    position: absolute;
+    top: 19px;
+    right: 23px;
+}
+
+.enterQR {
+    color: #000000A3;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 18px;
+    text-align: center;
+}
+
+.accept {
+    width: 202px;
+    padding: 17px 0px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: #F69E86;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    margin-top: 30px;
+    margin-left: 390px;
+    margin-bottom: 37px;
+}
